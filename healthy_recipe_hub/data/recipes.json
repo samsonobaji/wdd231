@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Vegetarian Pasta",
+        "description": "A delicious vegetarian pasta recipe.",
+        "type": "vegetarian",
+        "image": "images/vegetarian-pasta.jpg"
+    },
+    {
+        "title": "Gluten-Free Pancakes",
+        "description": "Light and fluffy pancakes without gluten.",
+        "type": "gluten-free",
+        "image": "images/Gluten-Free.jpeg"
+    }
+]

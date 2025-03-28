@@ -11,6 +11,9 @@ body {
   background-color: #f4f4f4;
   text-align: center;
 }
+.hidden {
+  display: none;
+}
 
 @media (min-width: 768px) {
   header {
@@ -74,7 +77,7 @@ body {
   .location {
     width: 18rem;
     height: 20rem;
-    margin-left: -16rem;
+    margin-left: -19rem;
   }
   .location--1 {
     margin: -15px -15px 0 -15px;
@@ -142,6 +145,7 @@ body {
     background: #e6eded;
     color: black;
   }
+
   footer {
     background-color: #2c3e50;
     color: white;

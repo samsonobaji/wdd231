@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content=" Healthy Recipe Hub - This website is designed to showcase a collection of healthy recipes.">
+    <meta name="author" content="Andrew Mogbeyiromore">
+    <meta property="og:title" content="Healthy recipe Hub">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="Image/logo.png">
+    <meta property="og:url" content="https://neyoungandy.github.io/wdd231/healthy_recipe_hub/recipes.html">
+    <title>Recipes - Healthy Recipe Hub</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Healthy Recipe Hub</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>All Recipes</h1>
+        <select id="filter" aria-label="Filter recipes">
+            <option value="all">All</option>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="gluten-free">Gluten-Free</option>
+        </select>
+        <div id="recipe-list"></div>
+    </main>
+    <footer>
+        <p>&copy; <span id="current-year"></span> Healthy Recipe Hub</p>
+        <p>Last modified: <span id="last-modified"></span></p>
+        <p>Developed by Andrew Mogbeyiromore, WDD231</p>
+        
+    </footer>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+        document.getElementById('last-modified').textContent = document.lastModified;
+    </script>
+    <script src="scripts/recipe.js"></script>
+</body>
+</html>
