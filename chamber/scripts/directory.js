@@ -5,19 +5,19 @@ const gridViewBtn = document.getElementById("grid-view-btn");
 const listViewBtn = document.getElementById("list-view-btn");
 
 const members = [
-    { name: "Business One", info: "Leading provider of tech solutions" },
-    { name: "Company Two", info: "Experts in logistics and transport" }
+  { name: "Business One", info: "Leading provider of tech solutions" },
+  { name: "Company Two", info: "Experts in logistics and transport" },
 ];
 
 function displayMembers(view) {
-    memberList.innerHTML = "";
-    members.forEach(member => {
-        const memberCard = document.createElement("div");
-        memberCard.classList.add("member-card");
-        memberCard.innerHTML = `<h3>${member.name}</h3><p>${member.info}</p>`;
-        memberList.appendChild(memberCard);
-    });
-    memberList.className = view;
+  memberList.innerHTML = "";
+  members.forEach((member) => {
+    const memberCard = document.createElement("div");
+    memberCard.classList.add("member-card");
+    memberCard.innerHTML = `<h3>${member.name}</h3><p>${member.info}</p>`;
+    memberList.appendChild(memberCard);
+  });
+  memberList.className = view;
 }
 
 gridViewBtn.addEventListener("click", () => displayMembers("grid"));

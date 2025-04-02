@@ -7,7 +7,7 @@
       name="description"
       content="discovering with Abeokuta Chamber of Commerce."
     />
-    <meta name="author" content="Andrew Mogbeyiromore" />
+    <meta name="author" content="Samson Obaji" />
     <meta
       property="og:title"
       content="discovery - Abeokuta Chamber of Commerce"
@@ -16,7 +16,7 @@
     <meta property="og:image" content="Image/logo.png" />
     <meta
       property="og:url"
-      content="https://neyoungandy.github.io/wdd231/chamber/discover.html"
+      content="https://samsonobaji.github.io/wdd231/chamber/discover.html"
     />
     <title>Discovery - Abeokuta Chamber of Commerce</title>
     <link rel="stylesheet" href="styles/base.css" />
@@ -26,22 +26,18 @@
     <script src="scripts/date.js" defer></script>
   </head>
   <body>
-    <header>
-      <div class="header-container">
-        <h1>Discover Chamber</h1>
-      </div>
+    <header
+      <h1>Discover Chamber</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="discover.html">Discover</a></li>
-        <li><a href="directory.html">Directory</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-
     <main>
       <div class="sidebar-content">
         <h3>Demographics</h3>
@@ -67,10 +63,22 @@
       <div class="sidebar-content">
         <h3>Local Attractions</h3>
         <ul>
-          <li>Ogun Osun River Basin Authority</li>
-          <li>The Olumo Rock</li>
-          <li>Rice and Tomatoes Farm</li>
-          <li>Forest Tour</li>
+          <li>
+            Itoku Market - Famous for locally made Adire fabrics and traditional
+            crafts.
+          </li>
+          <li>
+            June 12 Cultural Center - A hub for cultural events, exhibitions,
+            and performances.
+          </li>
+          <li>
+            Olusegun Obasanjo Presidential Library - A museum, research center,
+            and recreational space.
+          </li>
+          <li>
+            Alake's Palace - A historic royal palace with artifacts and
+            traditional relics.
+          </li>
         </ul>
       </div>
 
@@ -80,15 +88,31 @@
         <div class="image-gallery">
           <!-- Six optimized images with lazy loading -->
           <img
-            src="Images/ogunosun.jpg"
-            alt="Ogun Osun river basin"
+            src="Images/itoku-market.png"
+            alt="Itoku Market"
             class="lazy-load"
           />
-          <img src="Images/olumo.jpg" alt="Olumo" class="lazy-load" />
-          <img src="Images/rail.jpg" alt="rail line" class="lazy-load" />
-          <img src="Images/forest.jpg" alt="forest" class="lazy-load" />
+          <img
+            src="Images/cultural-centre.png"
+            alt="June 12 Cultural Centre"
+            class="lazy-load"
+          />
+          <img
+            src="Images/presidential-library.png"
+            alt="Olusegun Obasanjo Presidential Library"
+            class="lazy-load"
+          />
+          <img
+            src="Images/alake-palace.png"
+            alt="Alake Palace of Egba Land"
+            class="lazy-load"
+          />
           <img src="Images/farm.jpg" alt="farm produce" class="lazy-load" />
-          <img src="Images/bridge.jpg" alt="lafenwa bridge" class="lazy-load" />
+          <img
+            src="Images/panseke-bridge.png"
+            alt="Panseke Bridge"
+            class="lazy-load"
+          />
         </div>
       </section>
     </main>
@@ -97,7 +121,7 @@
     <footer>
       <p>&copy; <span id="current-year"></span> Abeokuta Chamber of Commerce</p>
       <p>Last modified: <span id="last-modified"></span></p>
-      <p>Developed by Andrew Mogbeyiromore, WDD231</p>
+      <p>Developed by Samson Obaji, WDD231</p>
     </footer>
     <script>
       document.getElementById("current-year").textContent =
