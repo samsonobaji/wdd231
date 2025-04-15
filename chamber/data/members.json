@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Elite Tech Enterprises",
+        "level": "Gold",
+        "logo": "images/gold.webp",
+        "phone": "+234 701 234 5678",
+        "address": "10 Victoria Island, Lagos",
+        "website": "https://elitetechent.com"
+    },
+    {
+        "name": "NextGen Innovations",
+        "level": "Bronze",
+        "logo": "images/bronze.jpg",
+        "phone": "+234 702 345 1234",
+        "address": "45 Lekki Phase 1, Lagos",
+        "website": "https://nextgeninnovations.com"
+    },
+    {
+        "name": "Urban Solutions Group",
+        "level": "Plantinum",
+        "logo": "images/plantinum.webp",
+        "phone": "+234 703 456 2345",
+        "address": "22 Ikoyi Road, Lagos",
+        "website": "https://urbansolutionsgroup.com"
+    },
+    {
+        "name": "Startup Stars",
+        "level": "Silver",
+        "logo": "images/silver-star.jpg",
+        "phone": "+234 804 567 8765",
+        "address": "33 David Park, Lagos",
+        "website": "https://startupstars.com"
+    },
+    {
+        "name": "Visionary Startups",
+        "level": "Silver",
+        "logo": "images/silver.webp",
+        "phone": "+234 705 678 5432",
+        "address": "18 Allen Avenue, Lagos",
+        "website": "https://visionarystartups.com"
+    }
+]
+
