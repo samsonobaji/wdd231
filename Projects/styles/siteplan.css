@@ -1,57 +1,104 @@
 /* Global Styles */
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 0;
+  font-family: "Open Sans", sans-serif; /* For body text */
+  background-color: #f8f9fa; /* Light neutral background */
+  color: #343a40; /* Dark gray for text */
+  margin: 0;
+  padding: 0;
 }
 
-h1, h2, h3 {
-    font-family: 'Lora', serif;
-    color: #4CAF50;  /* Green for headings */
+h1,
+h2,
+h3 {
+  font-family: "Lora", serif; /* For headings */
+  color: #343a40; /* Dark gray for excellent contrast */
 }
 
-/* Header and Navigation */
+/* Header */
 header {
-    background-color: #4CAF50;
-    padding: 20px;
+  background-color: #6c63ff; /* Soft purple background */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: white; /* Maintain white for heading in header */
+}
+
+header nav {
+  margin-top: 20px;
 }
 
 header nav a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.1rem;
+  padding: 10px;
 }
 
 header nav a:hover {
-    background-color: #FFEB3B;  /* Yellow for hover effect */
+  color: #4a47a3; /* Slightly darker purple for hover effect */
+  background-color: #f8f9fa; /* Light neutral background for contrast */
 }
 
-/* Featured Recipes Section */
-.featured-recipes {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+/* Sections */
+section {
+  padding: 20px;
+  margin: 20px 0;
 }
 
-.featured-recipes img {
-    width: 100%;
-    border-radius: 8px;
+section h2 {
+  font-size: 1.8rem;
+  color: #6c63ff; /* Purple accent for section headings */
+}
+
+section p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #343a40;
+}
+
+section strong {
+  color: #48c774; /* Green for strong text */
+}
+
+/* List Styling */
+section ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+section ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+/* Image Styling */
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border-radius: 8px; /* Add rounded corners */
+  border: 2px solid #f8f9fa; /* Subtle border for better image focus */
 }
 
 /* Footer */
 footer {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 15px 0;
+  background-color: #6c63ff; /* Purple background */
+  color: white;
+  text-align: center;
+  padding: 15px 0;
 }
 
 footer a {
-    color: #FFEB3B;
-    text-decoration: none;
+  color: #48c774; /* Green accent for footer links */
+  text-decoration: none;
 }
 
-
+footer a:hover {
+  color: #4a47a3; /* Darker purple on hover */
+}
