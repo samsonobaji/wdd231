@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Wholesome Bites Hub - Discover a variety of vegetarian recipes perfect for every occasion."
+    />
+    <meta name="author" content="Samson Obaji" />
+    <meta property="og:title" content="Wholesome Bites Hub - Recipes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/logo.png" />
+    <meta
+      property="og:url"
+      content="https://samsonobaji.github.io/wdd231/wholesome-bites_hub/recipes.html"
+    />
+    <title>Vegetarian Recipes - Wholesome Bite Hub</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="logo">Wholesome Bite Hub</a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Our Recipes</h1>
+      <p>Discover delightful vegetarian meals for all occasions!</p>
+
+      <!-- Filtering dropdown -->
+      <label for="filter">Filter Recipes:</label>
+      <select id="filter">
+        <option value="all">All Recipes</option>
+        <option value="vegetarian">Vegetarian Stir-Fry</option>
+        <option value="gluten-free">Gluten-Free Pancakes</option>
+      </select>
+
+      <!-- Recipe list container -->
+      <div id="recipe-list">
+        <!-- Recipes will load dynamically -->
+      </div>
+    </main>
+    <footer>
+      <p>&copy; <span id="current-year"></span> Wholesome Bites Hub</p>
+      <p>Last modified: <span id="last-modified"></span></p>
+      <p>Developed by Samson Obaji, WDD231</p>
+    </footer>
+    <script src="scripts/recipe.js"></script>
+    <script>
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+      document.getElementById("last-modified").textContent =
+        document.lastModified;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Vegetarian Stir-Fry",
+    "description": "A delightful mix of vegetables with a flavorful sauce.",
+    "image": "wholesome-bites-hub/images/Vegetarian-stirfry.png",
+    "type": "vegetarian",
+    "steps": [
+      "Chop your favorite vegetables (e.g., bell peppers, broccoli, and carrots).",
+      "Heat oil in a large skillet or wok over medium-high heat.",
+      "Add garlic and ginger, stir for 30 seconds, then toss in the vegetables.",
+      "Stir-fry for 5-7 minutes until the veggies are tender-crisp.",
+      "Mix soy sauce, sesame oil, and a pinch of sugar in a bowl, then pour over the veggies.",
+      "Cook for another 2 minutes, serve hot with steamed rice or noodles."
+    ]
+  },
+  {
+    "title": "Gluten-Free Pancakes",
+    "description": "Fluffy pancakes made with almond flour.",
+    "image": "wholesome-bites-hub/images/glutenfree-pancakes.jpg",
+    "type": "gluten-free",
+    "steps": [
+      "In a bowl, mix almond flour, baking powder, and salt.",
+      "In a separate bowl, whisk together eggs, almond milk, and vanilla extract.",
+      "Combine wet and dry ingredients until smooth.",
+      "Heat a non-stick skillet over medium heat and pour batter into small circles.",
+      "Cook until bubbles form on the surface, then flip and cook the other side.",
+      "Serve warm with your favorite toppings."
+    ]
+  },
+
+  {
+    "title": "Quinoa Salad",
+    "description": "A healthy and refreshing salad with quinoa and veggies.",
+    "image": "images/quinoa-salad.jpg",
+    "steps": [
+      "Rinse and cook quinoa according to package instructions.",
+      "Chop vegetables like cucumbers, tomatoes, and red onions.",
+      "In a large bowl, mix quinoa and vegetables.",
+      "Prepare a dressing with olive oil, lemon juice, salt, and pepper.",
+      "Drizzle the dressing over the salad and toss to combine.",
+      "Garnish with fresh herbs like parsley or cilantro and serve chilled."
+    ]
+  }
+]

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Wholesome Bites Hub - Contact us for recipe ideas and feedback!"
+    />
+    <meta name="author" content="Samson Obaji" />
+    <meta property="og:title" content="Wholesome Bites Hub - Contact" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/logo.png" />
+    <meta
+      property="og:url"
+      content="https://samsonobaji.github.io/wdd231/wholesome-bites_hub/contact.html"
+    />
+    <title>Contact Us - Wholesome Bite Hub</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="logo">Wholesome Bite Hub</a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Contact Us</h1>
+      <form id="contact-form">
+        <label for="name">Your Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+
+        <label for="email">Your Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <label for="message">Your Message:</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Write your message here..."
+          required
+        ></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; <span id="current-year"></span> Wholesome Bites Hub</p>
+      <p>Last modified: <span id="last-modified"></span></p>
+      <p>Developed by Samson Obaji, WDD231</p>
+    </footer>
+    <script src="scripts/form.js"></script>
+    <script>
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+      document.getElementById("last-modified").textContent =
+        document.lastModified;
+    </script>
+  </body>
+</html>
